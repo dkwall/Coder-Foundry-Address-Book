@@ -6,6 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./css/site.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,9 +14,45 @@
 </head>
 
 <body>
-       <div class="container">
-
-       </div>
+    <div class="container mt-5">
+        <h3>My Address Book</h3>
+        <div class="container-fluid border border-2 mt-1">
+            <div class="row p-2">
+                <div class="col-3">
+                    <div>
+                        <img src="./img/GirlOne_4x.png" alt="Headshot profile picture of a female silhouette.">
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <label class="form-label">First Name</label>
+                                <input type="text" name="firstName" class="form-control" placeholder="First Name" aria-label="First Name" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <label class="form-label">Last Name</label>
+                                <input type="text" name="lastName" class="form-control" placeholder="Last Name" aria-label="Last Name" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col">
+                            <label class="form-label">Email</label>
+                            <input type="text" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Phone</label>
+                            <input type="text" name="phone" class="form-control" placeholder="phone" aria-label="Phone" required>
+                        </div>
+                    </div>
+                    <!-- Start here with Address #1. New row, new col. Required. -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
