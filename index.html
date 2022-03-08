@@ -15,15 +15,15 @@
 
 <body>
     <div class="container mt-5">
-        <h3>My Address Book</h3>
-        <div class="container-fluid border border-2 mt-1">
+        <h3 class="text-light">My Address Book</h3>
+        <form class="container-fluid border border-2 mt-1 bg-light">
             <div class="row p-2">
-                <div class="col-3">
+                <div class="col-4">
                     <div>
-                        <img src="./img/GirlOne_4x.png" alt="Headshot profile picture of a female silhouette.">
+                        <img class="img-fluid" src="./img/GirlOne_4x.png" alt="Headshot profile picture of a female silhouette.">
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-8">
                     <div class="row">
                         <div class="col">
                             <div>
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-3">
+                    <div class="row">
                         <div class="col">
                             <label class="form-label">Email</label>
                             <input type="text" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
@@ -48,10 +48,69 @@
                             <input type="text" name="phone" class="form-control" placeholder="phone" aria-label="Phone" required>
                         </div>
                     </div>
-                    <!-- Start here with Address #1. New row, new col. Required. -->
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">Address</label>
+                            <input type="text" name="address" class="form-control" placeholder="Address" aria-label="Address" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">Address 2</label>
+                            <input type="text" name="address2" class="form-control" placeholder="Apt, studio, suite, or floor" aria-label="Address 2 optional">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">
+                            <label class="form-label">City</label>
+                            <input type="text" name="address2" class="form-control" placeholder="Apt, studio, suite, or floor" aria-label="Address 2 optional">
+                        </div>
+                        <div class="col-3">
+                            <label class="form-label">State</label>
+                            <select class="form-select" name="state" placeholder="State" aria-label="Select State" required>
+                                <option selected>State</option>
+                                <option value="1">Alabama</option>
+                                <option value="2">Alaska</option>
+                                <option value="3">Arizona</option>
+                                <option value="4">Arkansas</option>
+                                <option value="5">California</option>
+                                <option value="6">Colorado</option>
+                                <option value="7">Connecticute</option>
+                                <option value="8">Delaware</option>
+                                <option value="9">Florida</option>
+                                <option value="10">Georgia</option>
+                                <option value="11">Hawaii</option>
+                                <option value="12">Idaho</option>
+                                <option value="13">More States</option>
+                              </select>
+                        </div>
+                        <div class="col-2">
+                            <label class="form-label">Zip Code</label>
+                            <input type="text" name="zipCode" class="form-control" placeholder="Zip Code" aria-label="Zip Code" required>
+                        </div>
+                    </div>
+                    <!--STILL IN PROGRESS-->
+                    <!-- <div class="row d-flex">
+                        <div class="col-3"></div>
+                            <div class="form-check justify-self-start">
+                                <input class="form-check-input" name ="family" type="checkbox" value="" id="family">
+                                <label class="form-check-label" for="family">
+                                Family
+                                </label>
+                            </div>
+                            <div class="col-2">
+
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <button class="btn btn-primary justify-self-endtype="submit">Save</button>
+                        </div>
+                    </div> -->
+                    <!--STILL IN PROGRESS-->
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 
     <!-- Bootstrap JS -->
